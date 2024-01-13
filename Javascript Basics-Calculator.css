@@ -9,7 +9,7 @@
 body {
     padding: 0;
     margin: 0; 
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    background: linear-gradient(to right, #00a61e, #630ebd);
 }
 
 .calculator-grid {
@@ -39,7 +39,7 @@ body {
 
 .output {
     grid-column: 1 / -1; /* -1 is last column so span entire width of top row */
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex; 
     align-items: flex-end;
     justify-content: space-around; 
